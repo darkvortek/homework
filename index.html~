@@ -1,0 +1,6 @@
+<!DOCTYPE html>
+<html>
+<form action="http://google.com" method='post'>
+<input type="text" name="login"/>
+<input type='submit'/>
+</html>

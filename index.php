@@ -1,3 +1,4 @@
+
 <meta charset="utf-8">
 <?php
 //	Запуск сессии
@@ -19,5 +20,6 @@ if ($_POST['login'] == $res['login'] && $_POST['password'] == $res['password']) 
 $query = 'UPDATE user SET `sessin_id` ="' . session_id() . '" WHERE `login` = "' . $_POST['login'] . '"';
 $mysqli->query($query);
 echo '<a href = "index2.php">To content</a>';
-
 ?>
+    
+
